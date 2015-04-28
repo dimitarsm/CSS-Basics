@@ -1,0 +1,23 @@
+body
+	{background: #585858}
+table, td,th
+	{padding: 5 0 5 0}
+.column1 
+	{color: #FAFAFA; font-style: Italic}
+.yellow
+	{color: #F2F5A9}
+.grey
+	{color: #BDBDBD}
+#ticketid
+	{font-size: 22; color: #A4A4A4; font-weight: normal}
+#red
+	{color: #FF0000; font-weight: bold}
+#status
+	{color: #FE9A2E; font-weight: bold}
+#client
+{color: #F2F5A9}
+#client:before {
+	content: url(images/green.jpg);
+	position:relative;
+	right: 2px
+}

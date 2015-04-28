@@ -1,0 +1,23 @@
+body
+	{font-family:Calibri; font-size:14}
+table
+	{width: 550px; border: 1px solid #A4A4A4; border-collapse: collapse}
+th
+	{padding: 5px; border-left: 1px solid #A4A4A4; border-right: 1px solid #A4A4A4; color:#FBF8EF; font-weight: normal; text-align: left; background-color: #31B404}
+tr:nth-child(even) 
+	{background: #E6E6E6}
+tr:nth-child(odd) 
+	{background: #FFF}
+td
+	{padding: 5px; border-left: 1px solid #A4A4A4; border-right: 1px solid #A4A4A4}
+#germany:before {
+	content: url(images/germany.jpg)
+}
+.mexico:before {
+	content: url(images/mexico.jpg)
+}
+#uk:before {
+	content: url(images/uk.jpg)
+}
+.grey
+	{background-color: #BDBDBD}
